@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="decorative-border">
+        <div class="decorative-content">
+            <header>
+                <a href="/" class="home-button">Home</a> <!-- Home button -->
+                <h2>Your Character</h2>
+            </header>
+            <div class="character-info">
+                <form action="/character" method="post">
+                    <label for="characterCode">Enter Character Code:</label>
+                    <input type="text" id="characterCode" name="characterCode">
+                    <button type="submit">Submit</button>
+                </form>
+
+                <% if (character) { %>
+                    <h3>Your Character:</h3>
+                    <p><strong>Name:</strong> <%= character.name %></p>
+                    <p><strong>Age:</strong> <%= character.age %></p>
+                    <p><strong>Background:</strong> <%= character.background %></p>
+                    <p><strong>Role:</strong> <%= character.role %></p>
+                    <p><strong>Objective:</strong> <%= character.objective %></p>
+
+                    <h3>Relations:</h3>
+                    <ul>
+                        <% character.relations.forEach(function(relation) { %>
+                            <li>
+                                <strong><%= relation.name %></strong> - <%= relation.relationship %>: <%= relation.details %>
+                            </li>
+                        <% }); %>
+                    </ul>
+                <% } %>
+
+                <% if (error) { %>
+                    <p style="color: red;"><%= error %></p>
+                <% } %>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

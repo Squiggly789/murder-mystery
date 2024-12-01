@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Admin - Edit Characters</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Admin Panel</h1>
+    <form action="/admin" method="POST">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="text" name="age" placeholder="Age" required>
+        <input type="text" name="description" placeholder="Description" required>
+        <input type="text" name="code" placeholder="Unique Code" required>
+        <button type="submit">Add/Update Character</button>
+    </form>
+
+    <h2>Existing Characters</h2>
+    <ul>
+        <% characters.forEach(char => { %>
+            <li><strong><%= char.name %></strong> (<%= char.code %>): <%= char.description %></li>
+        <% }) %>
+    </ul>
+</body>
+</html>

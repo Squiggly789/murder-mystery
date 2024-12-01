@@ -1,0 +1,42 @@
+[
+    {
+        "code": "ABC123",
+        "name": "John Doe",
+        "age": 30,
+        "background": "A mysterious man with a dark past.",
+        "role": "Detective",
+        "objective": "Find the murderer before it's too late.",
+        "relations": [
+            {
+                "name": "Jane Smith",
+                "relationship": "Colleague",
+                "details": "Worked together on several cases."
+            },
+            {
+                "name": "Jack Brown",
+                "relationship": "Rival",
+                "details": "Competes for the top detective position."
+            }
+        ]
+    },
+    {
+        "code": "DEF456",
+        "name": "Jane Smith",
+        "age": 28,
+        "background": "A socialite with a hidden agenda.",
+        "role": "Suspect",
+        "objective": "Cover up the crime and escape undetected.",
+        "relations": [
+            {
+                "name": "John Doe",
+                "relationship": "Colleague",
+                "details": "Worked together on several cases."
+            },
+            {
+                "name": "Michael White",
+                "relationship": "Friend",
+                "details": "Knows her secrets."
+            }
+        ]
+    }
+]

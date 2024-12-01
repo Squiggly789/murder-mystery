@@ -1,0 +1,206 @@
+/* Styling for the footer navigation with darker box color */
+.footer-nav {
+    background-color: #b87b39; /* Darker shade of brown */
+    padding: 20px;
+    text-align: center;
+    border-top: 4px solid #a3732e; /* Slightly darker border for contrast */
+}
+
+.footer-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between the links */
+}
+
+.footer-nav li {
+    display: inline-block;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.footer-nav a:hover {
+    background-color: #8c5c2f; /* Darker color on hover */
+    border-color: #8c5c2f;
+}
+/* Styling for the footer navigation */
+.footer-nav {
+    background-color: #d1a561;
+    padding: 20px;
+    text-align: center;
+    border-top: 4px solid #b87b39; /* Slightly darker border for contrast */
+}
+
+.footer-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between the links */
+}
+
+.footer-nav li {
+    display: inline-block;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.footer-nav a:hover {
+    background-color: #b87b39;
+    border-color: #b87b39;
+}
+/* Style for the Home button */
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d1a561;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    border: 2px solid #d1a561;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.home-button:hover {
+    background-color: #b87b39;
+    border-color: #b87b39;
+}
+/* Body Styling */
+body {
+    font-family: 'Cinzel', serif;
+    background-color: #f9f4e8;
+    color: #2d2d2d;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Decorative Border */
+.decorative-border {
+    border: 8px solid #d1a561;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    background: #fff;
+}
+
+.decorative-corner {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #d1a561;
+    border-radius: 50%;
+    top: -10px;
+    left: -10px;
+}
+
+.decorative-content {
+    text-align: center;
+}
+
+/* Title and Subtitle */
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin: 0;
+    color: #2d2d2d;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #444;
+}
+
+/* Navigation Menu */
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    color: #d1a561;
+    font-size: 1.1em;
+}
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #888;
+}
+
+/* Form Styling */
+.character-form {
+    margin: 20px 0;
+}
+
+.character-form label {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.character-form input {
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+}
+
+.character-form button {
+    padding: 5px 10px;
+    font-family: 'Cinzel', serif;
+    background-color: #d1a561;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.character-form button:hover {
+    background-color: #b4894c;
+}
+
+/* Character Details */
+.character-details {
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1em;
+    color: #444;
+}
