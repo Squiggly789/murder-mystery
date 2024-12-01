@@ -207,8 +207,8 @@ body {
 
 @font-face {
     font-family: 'Tan Mon Cheri';
-    src: url('fonts\tan-mon-cheri.ttf') format('woff2'),
-         url('fonts\tan-mon-cheri.ttf') format('woff');
+    src: url('fonts/tan-mon-cheri.ttf') format('truetype'),
+         url('fonts/tan-mon-cheri.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
