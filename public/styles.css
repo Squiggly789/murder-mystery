@@ -23,7 +23,7 @@
     text-decoration: none;
     color: #fff;
     font-size: 18px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Special Elite', cursive;
     padding: 10px;
     border: 2px solid #fff;
     border-radius: 5px;
@@ -91,7 +91,7 @@
 }
 /* Body Styling */
 body {
-    font-family: 'Cinzel', serif;
+    font-family: 'Special Elite', cursive;
     background-color: #f9f4e8;
     color: #2d2d2d;
     margin: 0;
@@ -135,6 +135,7 @@ body {
 }
 
 .subtitle {
+    font-family: 'Special Elite', cursive;
     font-size: 1.2em;
     margin: 10px 0;
     color: #444;
@@ -200,7 +201,7 @@ body {
 /* Character Details */
 .character-details {
     margin-top: 20px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Special Elite', cursive;
     font-size: 1.1em;
     color: #444;
 }
