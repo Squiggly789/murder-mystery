@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "app.js"  // Replace 'server.js' with the actual entry file of your app
+    "start": "app.js"  
   },
   "keywords": [],
   "author": "",
