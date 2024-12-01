@@ -4,6 +4,7 @@ const fs = require('fs');
 
 const app = express();
 const PORT = 3000;
+const port = process.env.PORT || 3000;  // Set port from environment variable or fallback to 3000
 
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -76,6 +77,7 @@ app.post('/admin', (req, res) => {
     res.redirect('/admin');
 });
 
+
 app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
+  console.log(`Server is running on port ${port}`);
 });
