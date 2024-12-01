@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "app.js"  // Replace 'server.js' with the actual entry file of your app
   },
   "keywords": [],
   "author": "",
