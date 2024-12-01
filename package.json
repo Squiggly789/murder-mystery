@@ -2,9 +2,9 @@
   "name": "murder-mystery-party",
   "version": "1.0.0",
   "description": "",
-  "main": "node app.js",
+  "main": "app.js",
   "scripts": {
-    "start": "app.js"  
+    "start": "node app.js"  
   },
   "keywords": [],
   "author": "",
