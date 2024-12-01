@@ -44,6 +44,7 @@
 
 .footer-nav ul {
     list-style: none;
+    padding: 10px 20px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -84,6 +85,8 @@
     border: 2px solid #d1a561;
     transition: background-color 0.3s, border-color 0.3s;
 }
+
+
 
 .home-button:hover {
     background-color: #b87b39;
