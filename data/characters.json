@@ -1,42 +1,273 @@
 [
     {
-        "code": "ABC123",
-        "name": "John Doe",
-        "age": 30,
-        "background": "A mysterious man with a dark past.",
-        "role": "Detective",
-        "objective": "Find the murderer before it's too late.",
+        "code": "MaiaNF",
+        "name": "Mrs. Drake Drawbridge",
+        "age": 50,
+        "background": "Mrs. Drake Drawbridge was abandoned as a baby, left on the steps of a convent. You took your name after marrying Oller as you have no formal surname being raiseed as an orphan, growing up in the harsh care of underfunded orphanages, she faced relentless bullying from her peers. These early years instilled in her a burning determination to escape poverty and command respect. Her academic aptitude and ruthless ambition earned her a scholarship to a prestigious boarding school, where she vowed to never return to the life of the downtrodden. Mrs. Drawbridge worked her way up from a modest teaching role to becoming the headmistress of Lincoln School for Boys, a highly prestigious institution. She rules the school with an iron fist, believing discipline is the path to greatness—or, more accurately, the best way to suppress rebellion. Behind her polished exterior lies a bitter woman who loathes children, viewing them as ungrateful brats who must be controlled and punished. Her hard-earned wealth is her most prized possession, and she flaunts it at every opportunity. She despises the poor, using her rags-to-riches story as a justification for her disdain: If I could do it, why can't they? Your truly love your wife Oller,  you married her young and although she may not understand your class struggles you genuinely care for her. However, you are ashamed of your working-class background and would try anything to hide it. You often confide in your therapist Dr. Rachel Linken. ",
+        "role": "Headmaster",
+        "objective": "Your aim throughout the night is to retrieve a police report written against you by one of your students, a document that could ruin your reputation and cost you your position as Headmistress of Lincoln School for Boys. While the detectives are unaware of its significance, you know that if it falls into the wrong hands, it will lead to your immediate dismissal and public disgrace. You must be sly and calculated in your approach, ensuring no one suspects your intentions. Should you fail to recover the report, you risk losing everything you’ve worked so hard to build—a fate you simply cannot allow, as you will be fired from your job and be publicly shamed. Keep your composure, use your charm and wit to deflect attention, and ensure that by the end of the evening, the incriminating document is safely in your possession. The police report will be a sealed document, with a large inscription stating, “Open at 9:30”, retrieve the document by the end of the night. ",
         "relations": [
             {
-                "name": "Jane Smith",
-                "relationship": "Colleague",
-                "details": "Worked together on several cases."
+                "name": "Ms. Oller Drawbridge (Annabelle) ",
+                "relationship": "Wife",
+                "details": "Married for 10 years."
             },
             {
-                "name": "Jack Brown",
-                "relationship": "Rival",
-                "details": "Competes for the top detective position."
+                "name": "Dr. Rachel Linken (Cesca)",
+                "relationship": "Therapist",
+                "details": "The only person you can truly talk to"
+            },
+            {
+                "name": "Lord Fixon (Sidney)",
+                "relationship": "Headmaster Lord Fixons To Son Timmy",
+                "details": "His son Attends your school"
             }
         ]
     },
     {
-        "code": "DEF456",
-        "name": "Jane Smith",
-        "age": 28,
-        "background": "A socialite with a hidden agenda.",
-        "role": "Suspect",
-        "objective": "Cover up the crime and escape undetected.",
+        "code": "AnnaB",
+        "name": "Ms. Oller Drawbridge",
+        "age": 48,
+        "background": "Ms. Oller Drawbridge, a woman of considerable power and prestige, is a key figure in the elite circles of 1930s society. Born into the illustrious Drawbridge family, she inherited not only her family’s wealth but also their reputation for running the Grand Sovereign Bank, a cornerstone of the financial world. She has upheld the family legacy with grace and determination, further cementing her status as one of the most influential bankers of her time. As Lord Fixon’s personal financial advisor, she commands respect and wields significant influence, all while navigating the complexities of wealth, status, and personal relationships. ",
+        "role": "Banker",
+        "objective": "Despite her professional success, Ms. Oller Drawbridge harbors a quiet personal uncertainty. Married to her charming partner, she sometimes finds herself doubting the sincerity of her wife’s love. Deep in her heart, she wonders if the marriage is rooted in genuine affection or merely a means to access her vast fortune. This concern has been heightened by her knowledge that her wife confides in Dr. Rachel Linken, a therapist who happens to be present at tonight's gathering. Fueled by a mixture of hope and apprehension, Ms. Drawbridge is determined to uncover the truth about her wife’s feelings, even if it means confronting uncomfortable realities. You must find a way to retrieve the notes on your wife to find out if she genuinely loves you. ",
         "relations": [
             {
-                "name": "John Doe",
-                "relationship": "Colleague",
-                "details": "Worked together on several cases."
+                "name": "Mrs. Drake Drawbridge (Maia)",
+                "relationship": "Wife",
+                "details": "Married for 10 years.."
             },
             {
-                "name": "Michael White",
-                "relationship": "Friend",
-                "details": "Knows her secrets."
+                "name": "Lord Fixon (Sidney)",
+                "relationship": "Client",
+                "details": "You are his financial advisor, the fixons have been long term clients to the Grand Sovereign Bank"
             }
         ]
+    },
+    {
+        "code": "ElsaR",
+        "name": "Ms.  Dan Murphey ",
+        "age": 38,
+        "background": "Once a personal chef to the illustrious Fixon family, you spent years perfecting your craft and building warm relationships within their manor. Your culinary expertise brought you joy, but it was meeting Janne, the love of your life, that truly changed everything. Together, the two of you decided to move away and pursue a shared dream of starting a quaint bakery. Though your passion and determination fueled the endeavor, financial troubles soon followed, casting a shadow over your once-bright plans.When the Fixons extended an invitation for a reunion dinner, you saw it as more than just a chance to reconnect—it was an opportunity to salvage your struggling business. Returning to their manor, you poured your heart into preparing their meals, hoping to rekindle old bonds and secure a much-needed loan, but  Janne always seemed against the idea of asking the Fixons for a loan. However, when the Fixons refused your request, the setback left you disheartened. Despite this, your jolly demeanor and warm-hearted nature remain unshaken, as you hold out hope for a way forward. ",
+        "role": "Baker",
+        "objective": " Throughout the evening, your aim is to win the Fixons over and secure a loan from them to restart your bakery, while your partner Janne’s apprehension adds another layer of complexity to your efforts. Despite the setbacks you have a special place in your heart for eveyone you come across due to your warm nature.",
+        "relations": [
+            {
+                "name": "Ms. Janne Murphey (Shani)",
+                "relationship": "Wife",
+                "details": "Married for 4 years.."
+            },
+            {
+                "name": "Lord Fixon (Sidney)",
+                "relationship": "ex - Client",
+                "details": "You use'd to be his personal chef but left to start a bakery."
+            }
+        ]
+    },
+    {
+        "code": "ShaniS",
+        "name": "Ms. Janne Murphey ",
+        "age": 39,
+        "background": "You once served as a skilled mechanic for the Fixon family, a role that allowed you to grow particularly close to their young son, Timmy. Despite the seemingly cordial relationship, your disdain for the Fixons simmered beneath the surface, fueled by their condescension and entitlement. When you met your wife, Dan, everything changed. Together, you left the Fixons behind to help her pursue her dream of opening a bakery. Life in the north was simpler and freer, and though it came with its struggles, you cherished your independence from the Fixons' grasp. When an invitation to a reunion dinner arrived, Dan saw it as a chance to salvage your bakery by requesting a loan. You, ever the realist, knew the Fixons’ generosity was a farce and dismissed the idea. Resentment swelled as you returned to their grand manor, and in a fit of quiet vengeance, you laced their meal with poison. However, your plan didn’t unfold as you’d hoped. Back home, you learned from their staff that your actions had caused Lady Fixon to suffer a miscarriage—a far cry from the decisive blow you had intended. Months later, another invitation arrived, this time for Lord Fixon’s birthday dinner. Your hatred, compounded by guilt and frustration, consumed you. The night before the party, under the cover of darkness, you murdered two individuals you believed to be Lord and Lady Fixon, hiding their bodies in the manor. With their demise, your thoughts turned to Timmy, the Fixons' young heir. You had secretly maintained contact with him at his boarding school, intending to step in and claim his fortune once his parents were gone. Now, you’re navigating the aftermath of your escalating actions, torn between your plans and the consequences they could bring.",
+        "role": "Mechanic",
+        "objective": "Your aim throught the night is to maintain your innocence. ",
+        "relations": [
+            {
+                "name": "Ms. Dan Murphey (Elsa)",
+                "relationship": "Wife",
+                "details": "Married for 4 years.."
+            },
+            {
+                "name": "Lord Fixon (Sidney)",
+                "relationship": "Client",
+                "details": "You used to work as his mechanic and look after his son Timmy"
+            }
+        ]
+    },
+    {
+        "code": "IzzieKB",
+        "name": "Stella Monroe",
+        "age": 27,
+        "background": "Stella Monroe, known on stage as Izzie, is the shining star of the Monroe family. Having headlined numerous productions across both coasts, her charm, elegance, and unmatched talent have catapulted her career far beyond her sisters’. Though she cherishes her family, her relationships with Ruby and Sophia have become strained due to jealousy and competition.  You are incredibly bold and brave; never afraid to boast her success.",
+        "role": "The eldest and most successful sister of the Hollywood Star Sisters trio.",
+        "objective": "Tonight, Stella’s objective is to convince Lord and Lady Fixon to sponsor her new production, a grand venture she believes will secure her legacy as a Hollywood legend.",
+        "relations": [
+            {
+                "name": "Stephany Monroe (Ruby)",
+                "relationship": "Younger Sister",
+                "details": "She also is an actor."
+            },
+            {
+                "name": "Sophie Monroe  (Fikayo)",
+                "relationship": "Younger Sister",
+                "details": "She also is an actor."
+            },
+            {
+                "name": "Lord Fixon (Sidney)",
+                "relationship": "Admirer",
+                "details": "He watched you and your sisters perform at a Jazz club and insisted he invited all of you to his dinner"
+            }
+        ]
+    },
+    {
+        "code": "RubyP",
+        "name": "Stephany Monroe",
+        "age": 25,
+        "background": "Stephany is driven by jealousy and frustration, feeling overshadowed by Stella’s achievements. Though talented, her career has never reached the same heights, fueling her determination to bring Stella down. However, her emotions are complicated by a secret relationship with Dr. Lilian Johnson, a fact that she knows could ruin her plans if exposed. Last night you and Sophia Plotted to kill your sister (Izzie), however you cancelled to spend the night with your secret lover Dr. Lillian Johnson. Last night you spilled a bottle of poisin inteded for Stella in the hurry of the night, your sister is scared about the murder but you know its something you must do.",
+        "role": "Middle sister of the Hollywood Star Sisters trio.",
+        "objective": "Conceal her affair with Dr Lillian, and her murder plans and get her sister Stella Arrested",
+        "relations": [
+            {
+                "name": "Stella Monroe (Izzie)",
+                "relationship": " Older sister",
+                "details": "the main target of her resentment and plots."
+            },
+            {
+                "name": "Sophie Monroe  (Fikayo)",
+                "relationship": "Younger siste",
+                "details": "She also is an actor."
+            },
+            {
+                "name": "Dr. Lilian Johnson (Connie)",
+                "relationship": "Secret lover",
+                "details": "You are the mistress of Lillian, and are scared your faling in her and that she only sees you as a one time fling"
+            },
+            {
+                "name": "Lord Fixon (Sidney)",
+                "relationship": "Admirer",
+                "details": "He watched you and your sisters perform at a Jazz club and insisted he invited all of you to his dinner"
+            }
+        ]
+    
+    },
+    {
+        "code": "Fikayo",
+        "name": "Sophia Monroe",
+        "age": 23,
+        "background": "Sophia has always looked up to Stella but has recently been swayed by Ruby's claims of unfairness and favoritism. Caught in a web of sibling rivalry and deceit, Sophia is unsure of her own convictions but feels trapped in the scheme she helped concoct. She’s anxious to see their plans succeed, as failure could destroy the sisters' fragile bond and expose their intentions. Last night you and Stephany Plotted to kill your sister (Izzie), however Stephany cancelled as 'she was sick' but you dont know how much you believe her", 
+        "role": "Youngest sister of the Hollywood Star Sisters trio.",
+        "objective": "Conceal her murder plans and get her sister Stella Arrested",
+        "relations": [
+            {
+                "name": "Stella Monroe (Izzie)",
+                "relationship": " Older sister",
+                "details": "the main target of her resentment and plots."
+            },
+            {
+                "name": "Stephany Monroe (Ruby)",
+                "relationship": "Older sister",
+                "details": "She also is an actor."
+            },
+            {
+                "name": "Lord Fixon (Sidney)",
+                "relationship": "Admirer",
+                "details": "He watched you and your sisters perform at a Jazz club and insisted he invited all of you to his dinner"
+            },
+            {
+                "name": "Dr. Rachel Linken (Cesca)",
+                "relationship": "Therapist",
+                "details": "You talk to her often and stress how you feel coersed into the murder of your sister."
+            }
+        ]
+    
+    },
+    {
+        "code": "MathildeP",
+        "name": "Ms. Officer Lily Cartwright",
+        "age": 29,
+        "background": "Lily is a tenacious and thorough investigator, dedicated to solving mysteries and bringing wrongdoers to justice. She is perceptive and often spots connections others miss However you find your sensitive and innocent nature hinders in your ability to solve crimes, your squeemish and rely on Offier Mark Jules as your mentor.", 
+        "role": "Southern London detective",
+        "objective": "Her goal tonight is to uncover any foul play among the Fixons or their guests while working closely with her partner to ensure no clue goes unnoticed.",
+        "relations": [
+            {
+                "name": "Officer Mark Jules (Veronica)",
+                "relationship": "Trusted partner & Mentor",
+                "details": "your main role model in the detective world"
+            },
+            {
+                "name": "Lord Fixon (Sidney)",
+                "relationship": "Mark's Admirer",
+                "details": "Officer Mark solved a crime for Lord Fixon back in the day, and so invited him and his partner to the dinner to pay his respects."
+            }
+        ]
+    
+    },
+    {
+        "code": "VeronicaF",
+        "name": "Ms. Officer Mark Jules ",
+        "age": 55,
+        "background": "Mark Jules is the more pragmatic and detail-oriented of the duo. While Lily drives the investigation with her instincts, Mark grounds it with methodical evidence gathering. Together, they make a formidable team. Mark is determined to leave no stone unturned, especially given the rumors surrounding the Fixon family. Taking Officer Lily under your wing, your incredibly sensitive over her as you know she is a delicate soul.", 
+        "role": "Southern London detective",
+        "objective": "Her goal tonight is to uncover any foul play among the Fixons or their guests while working closely with her partner to ensure no clue goes unnoticed.",
+        "relations": [
+            {
+                "name": "Ms. Officer Lily Cartwright (Veronica)",
+                "relationship": "Trusted partner & student",
+                "details": "your main prodoge in the detective worldd"
+            },
+            {
+                "name": "Lord Fixon (Sidney)",
+                "relationship": "Mark's Admirer",
+                "details": "Officer Mark solved a crime for Lord Fixon back in the day, and so invited him and his partner to the dinner to pay his respects."
+            }
+        ]
+    
+    },
+    {
+        "code": "Conniek",
+        "name": "Dr. Lilian Johnson ",
+        "age": 36,
+        "background": "Dr. Lilian Johnson is charming and personable, but her recent affair with Stephany has made her paranoid about being exposed. She navigates the evening carefully, avoiding situations that could betray her connection to Stephany while keeping an eye on Stella, who might indirectly reveal too much. Last night you and Stella stuck out to be with eachother but you fear your collegue Dr Linken would tell your wife back at home. ", 
+        "role": "Dentist.",
+        "objective": " Hide her affair with Stephany and avoid suspicion from others",
+        "relations": [
+            {
+                "name": "Stephany Monroe (Ruby)",
+                "relationship": "Secret lover",
+                "details": "Who you treat as mearly a one time fling"
+            },
+            {
+                "name": "Lord Fixon (Sidney)",
+                "relationship": "Client",
+                "details": "You are Lord Fixons personal dentist, and so he invited you to pay respects."
+            },
+            {
+                "name": "Dr. Rachel Linken (Cesca)",
+                "relationship": "Partener",
+                "details": "You work together but fear she could snitch on you to your husband if she finds out your having an affair."
+            }
+        ]
+    
+    },
+    {
+        "code": "Cesca",
+        "name": "Dr. Rachel Linken ",
+        "age": 40,
+        "background": "Dr. Rachel Linken is a renowned psychiatrist, skilled at reading people and uncovering their motivations. Present at the Fixon party as both a guest and observer, she is intrigued by the tension among the attendees. Though not actively investigating, she can’t help but notice dynamics that may hint at deeper secrets.As a Phyciatrist you are incredibly proffesional and are not afraid to snitch on any malpracaice, you are very close with Dr Lillian Johnson and are very good freinds with his wife; she is a sensitive women and you would never do her injustice.", 
+        "role": "Phyciatrist",
+        "objective": "Maintain professional decorum while keeping an ear out for gossip to inform her analysis.",
+        "relations": [
+            {
+                "name": "Mrs. Drake Drawbridge (Maia)",
+                "relationship": "Client",
+                "details": "One of your many clients"
+            },
+            {
+                "name": "Lady Fixon (Sidney)",
+                "relationship": "Client",
+                "details": "You are Lady Fixons personal therapist as she tells you her worries."
+            },
+            {
+                "name": "Sophie Monroe  (Fikayo)",
+                "relationship": "Client",
+                "details": "Your nervous how Sophie seems coersed into the murder of her sister. "
+            },
+            {
+                "name": "Dr. Lilian Johnson (Connie)",
+                "relationship": "Partener",
+                "details": "You work together and are especcially close with her wife.  "
+            }
+        ]
+    
     }
 ]
